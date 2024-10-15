@@ -36,7 +36,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({ title }) => {
 
   return (
     <div className="bg-ice-white rounded-lg shadow-md p-4 flex flex-col h-full">
-      <h2 className="text-xl font-semibold text-midnight-navy border-2 border-midnight-navy p-2 rounded-md mb-4">
+      <h2 className="text-l font-semibold text-midnight-navy border-2 border-midnight-navy p-2 rounded-md mb-4">
         {title}
       </h2>
       <button className="text-vibrant-red hover:text-ruby-red mb-4">
